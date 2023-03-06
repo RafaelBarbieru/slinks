@@ -1,1 +1,1 @@
-<h1 id="slinks-links-title">{{ strtoupper(__('common.app_name')) }}</h1>
+<h1 id="slinks-links-title">WELCOME TO {{ strtoupper(__('common.app_name')) }}!</h1>
