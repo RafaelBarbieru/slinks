@@ -1,0 +1,1 @@
+<h1 id="slinks-links-title">{{ strtoupper(__('common.app_name')) }}</h1>

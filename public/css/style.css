@@ -1,0 +1,226 @@
+:root {
+    --slinks-background-color: #FAFAFA;
+    --slinks-color: #FF644E;
+    --slinks-add-color: #5CDB5C;
+    --slinks-remove-color: #FF0021;
+    --slinks-move-color: var(--slinks-color);
+    --slinks-edit-color: #0B6EFD;
+    --slinks-disabled-color: #D3D3D3;
+}
+
+#slinks-links-title {    
+    color: white;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--slinks-color);
+}
+
+#unauthorized-container {
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#filter-apps ul {
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+    -webkit-margin-after: 0;
+            margin-block-end: 0;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--slinks-background-color);
+}
+
+.search {
+    margin-bottom: 1em;
+    float: right;
+}
+
+/*.slinks-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;    
+}*/
+.slinks-links {
+    display: inline;
+}
+.slinks-links .slinks-link {
+    display: inline;
+}
+.slinks-links .slinks-link:not(:last-child)::after {
+    content: '|';
+}
+.slinks-links a {
+    text-decoration: none;
+}
+
+.slinks-link-a {
+    color: var(--slinks-edit-color) !important;
+    text-decoration: none !important;
+}
+
+.slinks-link-a:hover {
+    text-decoration: underline !important;
+}
+
+.slinks-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slinks-100vh {
+    height: 100vh;
+}
+
+.slinks-hv-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slinks-form {
+    width: 50%;
+    display: block;
+    border: 2px solid gray;
+    padding: 2rem;
+}
+
+.slinks-form h1,h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.slinks-form span {
+    width: 200px;
+}
+
+.slinks-form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.slinks-table thead {
+    background-color: var(--slinks-disabled-color);
+}
+
+.slinks-table th {
+    width: 25%;
+}
+
+.slinks-icon-title{
+    color: black;
+    transition-duration: 150ms;
+    text-decoration: none !important;
+}
+
+.slinks-icon-title:hover {    
+    color: white;
+    transition-duration: 150ms;
+}
+
+.slinks-icon {
+    color: var(--slinks-disabled-color);
+    transition-duration: 150ms;
+    text-decoration: none !important;
+}
+
+.slinks-icon:hover {
+    color: black;
+    transition-duration: 150ms;
+}
+
+.slinks-icon-add:hover {
+    color: var(--slinks-add-color);
+    
+}
+
+.slinks-icon-edit:hover {
+    color: var(--slinks-edit-color);
+    transition-duration: 150ms;
+}
+
+.slinks-icon-remove:hover {
+    color: var(--slinks-remove-color);
+    transition-duration: 150ms;
+}
+
+.slinks-icon-move:hover {
+    color: var(--slinks-move-color);
+    transition-duration: 150ms;
+}
+
+.btn-slinks {
+    width: 100%;
+    color: white !important;
+    background-color: var(--slinks-color) !important;
+    border: 2px solid var(--slinks-color) !important;
+    text-decoration: none !important;
+    transition-duration: 150ms !important;
+    padding: 0.5rem !important;
+    border-radius: 5px;
+}
+
+.btn-slinks:hover {
+    transition-duration: 150ms !important;
+    color: var(--slinks-color) !important;
+    background-color: #FFFFFF !important;
+}
+
+.btn-slinks-disabled {
+    width: 100%;
+    color: black !important;
+    background-color: var(--slinks-background-color) !important;
+    border: 2px solid var(--slinks-disabled-color) !important;
+    padding: 0.5rem !important;
+    border-radius: 5px;
+}
+
+.page-content table td {
+    white-space: nowrap;
+}
+  
+.page-content table td:last-child {
+    width: 100%;
+}
+
+.btn-slinks-add {
+    width: 100%;
+    color: white;
+    background-color: var(--slinks-add-color);
+    border: 2px solid var(--slinks-add-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 150ms;
+    padding: 0.5rem;    
+}
+
+.btn-slinks-add:hover {
+    transition-duration: 150ms !important;
+    color: black !important;
+    background-color: #FFFFFF !important;
+}
+
+.slinks-container {
+    padding: 10px;
+}
+
+.slinks-object {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slinks-object a {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.sortable-app-handle, .sortable-env-handle, .sortable-link-handle {
+    cursor: -webkit-grab;
+}
