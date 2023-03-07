@@ -17,7 +17,7 @@ Server-side rendered Laravel project connected to a RDBMS with JQuery as a helpe
 -   DBMS: PostgreSQL.
 -   JS Libraries: JQuery.
 
-## DEV ONLY
+## For devs
 
 ### How to: set up
 
