@@ -6,7 +6,7 @@
 
 <div id="filter-blocks" class="slinks-container">
 
-    <input type="search" class="search" placeholder="Search block" autofocus />
+    <input type="search" class="search" placeholder="Search block…" autofocus />
 
     <h1>{{ __('common.active_blocks') }}
         <a href="{{ route('new', ['type' => 'block']) }}" title="Add new block" class="slinks-link-a">
