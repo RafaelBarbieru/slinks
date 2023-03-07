@@ -4,7 +4,7 @@ Slinks is a website for organizing personal URLs into categories; something like
 
 ## Functional overview
 
-TODO: Functional overview
+![Homepage](/docpics/homepage.png)
 
 ## Technical overview
 
