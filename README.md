@@ -6,6 +6,17 @@ Slinks is a website for organizing personal URLs into categories; something like
 
 TODO: Functional overview
 
+## Technical overview
+
+Server-side rendered Laravel project connected to a RDBMS with JQuery as a helper library.
+
+### Tech stack
+
+-   FRONTEND: Blade Templates.
+-   BACKEND: Laravel Framework.
+-   DBMS: PostgreSQL.
+-   JS Libraries: JQuery.
+
 ## DEV ONLY
 
 ### How to: set up
