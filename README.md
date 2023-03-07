@@ -16,11 +16,11 @@ Slinks allows you to add _Blocks_, add _Groups_ to _Blocks_ and add _Links_ to _
 
 This is the intended use of the app, however, anyone can use it differently.
 
-### Add a block
+### Add a Block
 
-In order to add a _Block_, click on the big plus icon next to the _Active Blocks_ text.
+In order to add a _Block_, click on the big _Plus_ icon next to the _Active Blocks_ text.
 
-![Click on the big plus icon next to Active Blocks to add a Block](/docpics/addblock.png)
+![Click on the big Plus icon next to Active Blocks to add a Block](/docpics/addblock.png)
 
 You will be asked to insert a name.
 
@@ -30,19 +30,45 @@ Once you have named your block, click the _Add_ button and your _Block_ will now
 
 ![New block has been added](/docpics/addblock3.png)
 
-### Edit/Archive a block
+### Edit/Archive a Block
 
-In order to edit a _Block_, click on the small _Notepad_ icon on the right of the _Block_.
+In order to edit a _Block_, click on the small _Notepad_ icon on the right of it.
 
 ![Click on the small Notepad icon on the right of the Block to edit it](/docpics/editblock.png)
 
-Once inside the edit page, you can change the name of the Block and/or Archive it.
+Inside the edit page you can change the name of the Block and/or Archive it.
 
 ![You can change the name of a Block or archive it](/docpics/editblock2.png)
 
-Once you're done, click on the _Edit_ button and your _Block_ will be updated in the Homepage.
+When done, click on the _Edit_ button and your _Block_ will be updated in the Homepage.
 
 ![The Block will be updated in the Homepage](/docpics/editblock3.png)
+
+Once a _Block_ has been archived its contents can no longer be edited until the _Block_ is unarchived.
+
+### Delete a Block
+
+In order to delete a _Block_, click on the small _Trash Can_ icon on the right of it.
+
+![Click on the small Trash Can icon on the right of the Block to delete it](/docpics/deleteblock.png)
+
+Before deleting the _Block_, Slinks will ask you if you are sure you want to perform that action with a confirmation box.
+
+![Confirmation box to delete a Block](/docpics/deleteblock2.png)
+
+## Add a Group
+
+Adding a _Group_ is as easy as clickin on the small _Plus_ icon on the right of a _Block_.
+
+![Click on the small Plus icon on the right of a Block to create a Group for it](/docpics/addgroup.png)
+
+You can only name the _Group_ when creating it, since Slinks will know what _Block_ you want it added to.
+
+![Name the Group](/docpics/addgroup2.png)
+
+Once done, click on the _Add_ button and the _Block_ will be updated with the new _Group_.
+
+![Group added](/docpics/addgroup3.png)
 
 ## Technical overview
 
