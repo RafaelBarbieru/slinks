@@ -14,7 +14,7 @@ Slinks allows you to add _Blocks_, add _Groups_ to _Blocks_ and add _Links_ to _
 -   _Groups_ are specific categories.
 -   _Links_ are hyperlink text strings that point to a URL and open in a new tab.
 
-This is the intended use of the app, however, everyone can use it as they desire.
+This is the intended use of the app, however, anyone can use it differently.
 
 ### Add a block
 
