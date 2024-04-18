@@ -4,6 +4,11 @@ Slinks is a website for organizing personal URLs into categories; something like
 
 ## Functional tutorial
 
+### Login
+![Login](/docpics/login.png)
+
+In order to log into Slinks you need a Google Account. Just log into your Google Account using the "Log in" button and the application will allow you to enter and use it.
+
 ### Homepage
 
 ![Homepage](/docpics/homepage.png)
@@ -83,9 +88,17 @@ Server-side rendered Laravel project connected to a RDBMS with JQuery as a helpe
 
 ## For devs
 
+### Requirements
+-   PHP 7+
+-   Composer 2
+-   Laravel 4+
+-   Artisan 8+
+-   MySQL 8+
+
 ### How to: set up
 
 -   Set up the `.env` file by using the `.env.template` file and asking the person in charge the secret variables' values.
+-   Generate the APP_KEY .env property using `php artisan key:generate`.
 -   Install dependencies with `composer install`.
 -   Migrate the database with `php artisan migrate`.
 -   Serve the app locally with `php artisan serve`.
@@ -94,4 +107,4 @@ Server-side rendered Laravel project connected to a RDBMS with JQuery as a helpe
 
 -   Checkout either the `staging` or `master` branch for the staging or production environments respectively.
 -   Push your changes to the current branch.
--   Changes will be automatically deployed respective remote environment using CI/CD.
+-   Changes will be automatically deployed respective to the remote environment using CI/CD.
