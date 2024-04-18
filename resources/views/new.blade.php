@@ -93,6 +93,6 @@
 <input hidden id="$parent_block_name" value="{{ isset($parent_block->name) ? $parent_block->name : null }}"></input>
 <input hidden id="$parent_group_name" value="{{ isset($parent_group->name) ? $parent_group->name : null }}"></input>
 
-<script src="{{ asset('js/spryform.js') }}"></script>
+<script src="{{ asset('js/slinksform.js') }}"></script>
 
 @endsection
